@@ -21,7 +21,7 @@ jobs:
       pull-requests: read
 
     steps:
-      - name: Checkout (필요 없음, 습관적)
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Extract linked issues
